@@ -21,6 +21,6 @@ RUN	hexo new page categories
 # ADD 404.html /blog/source/
 # RUN rm -r /blog/source/_post
 ADD supervisor.conf /etc/supervisor/conf.d/
-EXPOSE 4000
+EXPOSE 5000
 
 CMD ["supervisord", "-n"]
