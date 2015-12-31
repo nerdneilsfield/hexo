@@ -18,7 +18,7 @@ RUN hexo new page "about" && \
 	hexo new page "tags" && \
 	hexo new page categories \
 #克隆我的主题下来
-ADD 404.html /blog/source/
+# ADD 404.html /blog/source/
 RUN rm -r /blog/source/_post
 ADD supervisor.conf /etc/supervisor/conf.d/
 EXPOSE 4000
