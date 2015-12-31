@@ -8,9 +8,9 @@ RUN apt-get install -y  git nodejs npm supervisor &&\
 RUN npm install -g hexo --save && \
     npm install hexo-generator-feed --save
 RUN ln -s /usr/bin/nodejs /usr/bin/node
-RUN hexo init /blog && \
-    cd /blog/  && \
-	npm install
+RUN hexo init /blog
+WORKDIR /blog/
+RUN	npm install
 RUN git clone https://github.com/nerdneilsfield/Hexo-theme-Teas themes/teas
 RUN rm _config.yml
 ADD _config.yml /blog/
