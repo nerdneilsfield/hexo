@@ -5,7 +5,7 @@ RUN apt-get -y upgrade
 RUN apt-get install -y  git nodejs npm supervisor &&\
 	apt-get clean && \
      rm -rf /var/lib/apt/lists/*
-RUN npm install -g hexo --save &&
+RUN npm install -g hexo --save && \
     npm install hexo-generator-feed --save
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN hexo init /blog && \
