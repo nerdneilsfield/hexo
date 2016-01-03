@@ -14,7 +14,7 @@ WORKDIR /usr/share/nginx/html/
 RUN	npm install
 RUN git clone https://github.com/nerdneilsfield/Hexo-theme-Teas themes/teas
 RUN rm _config.yml
-ADD _config.yml /blog/
+ADD _config.yml /usr/share/nginx/html/
 RUN hexo new page "about"
 RUN	hexo new page "tags"
 RUN	hexo new page categories
