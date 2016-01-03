@@ -21,7 +21,7 @@ RUN	hexo new page categories
 RUN rm -f /blog/source/tags/index.md /blog/source/categories/index.md
 ADD favicon.ico /blog/source/
 ADD tags.md /blog/source/tags/index.md
-ADD catagories.md /blog/source/categories/index.md
+ADD cat.md /blog/source/categories/index.md
 ADD 404.html /blog/source/
 ADD default.conf /etc/nginx/conf.d/default.conf
 # RUN rm -r /blog/source/_post
