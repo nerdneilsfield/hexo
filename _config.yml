@@ -7,8 +7,8 @@ title: 我们的朝圣路
 subtitle: 追寻思想的力量
 description: NerdNeils的个人博客，探索独立思想的独特魅力
 author: NerdNeils
-language: zh-Hans
-timezone:
+language: zh-moha
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
