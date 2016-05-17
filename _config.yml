@@ -1,80 +1,20 @@
-# Hexo Configuration
-## Docs: http://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+menu:
+  Home: /
+  Archives: /archives
 
-# Site
-title: 我们的朝圣路
-subtitle: 追寻思想的力量
-description: NerdNeils的个人博客，探索独立思想的独特魅力
-author: NerdNeils
-language: zh-moha
-timezone: Asia/Shanghai
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.dengqi.org
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-avatar: https://www.petfinder.com/wp-content/uploads/2012/11/99233806-bringing-home-new-cat-632x475.jpg
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
+addthis:
   enable: true
-  line_number: true
-  auto_detect: true
-  tab_replace:
+  pubid:
+  facebook: false
+  twitter: false
+  google: false
+  pinterest: false
 
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+facebook:
+google_plus:
+twitter:
+github:
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 8
-pagination_dir: page
-
-# Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
-theme: teas
-since: 1995
-social:
-  github: https://github.com/nerdneilsfield
-  twitter: https://twitter.com/DengQi1
-  douban: http://www.douban.com/people/62036935/
-  zhihu: https://www.zhihu.com/people/nerdniels
-duoshuo_shortname: dengqi-blog
-links_title: Links
-links:
-  SHTECH: http://shtech.info
-  GeekPie: http://www.geekpie.org
-## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type:
+fancybox: true
+google_analytics:
+rss:
